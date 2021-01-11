@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Cryptography Utility</string>
+    <!-- Strings related to login -->
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">Welcome !</string>
+    <string name="invalid_username">Email already in use</string>
+    <string name="invalid_password">Password must be >8 characters</string>
+    <string name="login_failed">Login failed, username or password is incorrect</string>
+    <string name="login_guest">Login as guest</string>
+    <string name="prompt_email">Email</string>
+    <string name="action_sign_up">Register here</string>
+    <string name="register">Not registered yet?</string>
+    <string name="remain_registered">Remember me</string>
+    <string name="checked">Checked</string>
+    <string name="unchecked">Unchecked</string>
+    <string name="please">Please Sign In</string>
+    <string name="quit">Are you sure you want to quit?</string>
+    <string name="close">Close</string>
+    <string name="cancel">Cancel</string>
+    <string name="online_error">it seems like we have a problem whit the login, please log as guest</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Guest</string>
+    <string name="nav_header_subtitle">guest@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="home" translatable="false">Home</string>
+    <string name="logout">Are you sure to logout?</string>
+    <string name="action_logout" translatable="false">Logout</string>
+    <string name="action_language">Change language</string>
+    <string name="italian">Italian</string>
+    <string name="set_language">Select the language</string>
+    <string name="ROT13" translatable="false">ROT13</string>
+    <string name="rot13">ROT-13 encrypter and decrypter</string>
+    <string name="prompt_name">Name</string>
+    <string name="action_sign_up_short">Sign up</string>
+    <string name="signup_failed">Registration failed, try another email</string>
+    <string name="signup_succes">You have successfully registered</string>
+    <string name="signup_error">Error during signup, try later</string>
+    <string name="BASE64" translatable="false">BASE64</string>
+    <string name="Morse" translatable="false">Morse</string>
+    <string name="encode">Encode</string>
+    <string name="set_input">Enter your string</string>
+    <string name="execute">Execute</string>
+    <string name="decode">Decode</string>
+    <string name="W_rot13">Decode or encode ROT13 strings</string>
+    <string name="W_morse">Decode or encode morse strings</string>
+    <string name="W_home">Welcome to Cryptography Utility</string>
+    <string name="W_base64">Decode or encode BASE64 strings</string>
+    <string name="AES" translatable="false">AES</string>
+    <string name="set_Iv">Enter your Initialization Vector</string>
+    <string name="set_key">Enter your key</string>
+    <string name="set_message">Enter your message</string>
+    <string name="wrongInput">Iv and the key must be 16 char long</string>
+    <string name="welcome_message">Welcome to Cryptography Utility, we are happy that you choose our app, for starting view the sidebar and choose the encoder/decoder that you want to use</string>
+</resources>

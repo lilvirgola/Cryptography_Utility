@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+   <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.cryptographyutility.ui.home.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_ROT13"
+        android:name="com.example.cryptographyutility.ui.ROT13.ROT13Fragment"
+        android:label="ROT-13"
+        tools:layout="@layout/fragment_rot13" />
+    <fragment
+        android:id="@+id/nav_BASE64"
+        android:name="com.example.cryptographyutility.ui.BASE64.BASE64Fragment"
+        android:label="BASE64"
+        tools:layout="@layout/fragment_base64" />
+    <fragment
+        android:id="@+id/nav_morse"
+        android:name="com.example.cryptographyutility.ui.Morse.MorseFragment"
+        android:label="Morse"
+        tools:layout="@layout/fragment_morse" />
+    <fragment
+        android:id="@+id/nav_AES"
+        android:name="com.example.cryptographyutility.ui.AES.AESFragment"
+        android:label="AES"
+        tools:layout="@layout/fragment_morse" />
+   <!--
+       <fragment
+           android:id="@+id/nav_slideshow"
+           android:name="com.example.CryptographyUtility.ui.slideshow.SlideshowFragment"
+           android:label="@string/menu_slideshow"
+           tools:layout="@layout/fragment_slideshow" /> -->
+</navigation>

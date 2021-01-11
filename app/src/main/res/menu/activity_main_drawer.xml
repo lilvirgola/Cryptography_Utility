@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+       <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/home"/>
+        <item
+            android:id="@+id/nav_ROT13"
+            android:title="@string/ROT13" />
+        <item
+            android:id="@+id/nav_BASE64"
+            android:title="@string/BASE64" />
+        <item
+            android:id="@+id/nav_morse"
+            android:title="@string/Morse" />
+        <item
+            android:id="@+id/nav_AES"
+            android:title="@string/AES" />
+    </group>
+</menu>
