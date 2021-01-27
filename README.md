@@ -1,6 +1,6 @@
 # Cryptography Utility
 
-Applicazione Android permette decifrare e cifrare attraverso algoritmi di cifratura
+Applicazione progetto scolastico Android che permette decifrare e cifrare attraverso algoritmi di cifratura
 
 ## Descrizione
 Questa applicazione decifrare e cifrare messaggi attraverso algoritmi di cifratura
