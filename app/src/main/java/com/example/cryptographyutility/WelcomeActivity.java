@@ -59,7 +59,7 @@ public class WelcomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         Intent intent = getIntent();
-        SecurePreferences preferences = new SecurePreferences(getApplicationContext(), "login", "dwd@ASDwasd@WAsdaW!Dsa",true);
+        SecurePreferences preferences = new SecurePreferences(getApplicationContext(), "login", "password",true);//cambia password con una password
         token = preferences.getString("token");
         setContentView(R.layout.activity_welcome);
         Toolbar toolbar = findViewById(R.id.toolbar);
@@ -115,7 +115,7 @@ public class WelcomeActivity extends AppCompatActivity {
                         DialogInterface.OnClickListener() {
                             public void onClick(
                                     DialogInterface dialog, int id) {
-                                SecurePreferences preferences = new SecurePreferences(getApplicationContext(), "login", "dwd@ASDwasd@WAsdaW!Dsa", true);
+                                SecurePreferences preferences = new SecurePreferences(getApplicationContext(), "login", "password", true);//cambia password con una password
                                 preferences.put("username", "false");
                                 preferences.put("password", "false");
                                 preferences.put("token", "false");
@@ -154,7 +154,7 @@ public class WelcomeActivity extends AppCompatActivity {
                 DialogInterface.OnClickListener() {
                     public void onClick(
                             DialogInterface dialog, int id) {
-                        SecurePreferences preferences = new SecurePreferences(getApplicationContext(), "login", "dwd@ASDwasd@WAsdaW!Dsa", true);
+                        SecurePreferences preferences = new SecurePreferences(getApplicationContext(), "login", "password", true);//cambia password con una password
                         preferences.put("username", "false");
                         preferences.put("password", "false");
                         preferences.put("token", "false");
