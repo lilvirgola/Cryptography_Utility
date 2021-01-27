@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         password = findViewById(R.id.password);
         loginG = findViewById(R.id.loginG);
         loading = findViewById(R.id.loading);
-        SecurePreferences preferences = new SecurePreferences(getApplicationContext(), "login", "dwd@ASDwasd@WAsdaW!Dsa",true);
+        SecurePreferences preferences = new SecurePreferences(getApplicationContext(), "login", "password",true); //cambia password con una password
         String check =preferences.getString("username");
         if(check==null || check.equals("false")|| check.equals("")){// verifica se l'opzione rimani registrato non era stata attivata attraverso il controllo delle preferences
             Toast.makeText(MainActivity.this, R.string.please, Toast.LENGTH_LONG ).show(); //chiede all'utente di registrarsi
@@ -80,14 +80,14 @@ public class MainActivity extends AppCompatActivity {
                     if(accesso) {//se l'accesso è avvenuto correttaente
                         if (remember.isChecked()) { //verifico se l'utente ha spuntato la check box e salvo tutti i dati nella securepreferences
                             token = obj.get("token").getAsString();
-                            SecurePreferences preferences = new SecurePreferences(getApplicationContext(), "login", "dwd@ASDwasd@WAsdaW!Dsa", true);
+                            SecurePreferences preferences = new SecurePreferences(getApplicationContext(), "login", "password", true); //cambia password con una password
                             preferences.put("username", String.valueOf(email.getText()));
                             preferences.put("password", String.valueOf(password.getText()));
                             preferences.put("token", String.valueOf(token));
 
                         } else if (!remember.isChecked()) {//altrimenti salvo solo il token
                             token = obj.get("token").getAsString();
-                            SecurePreferences preferences = new SecurePreferences(getApplicationContext(), "login", "dwd@ASDwasd@WAsdaW!Dsa", true);
+                            SecurePreferences preferences = new SecurePreferences(getApplicationContext(), "login", "password", true); //cambia password con una password
                             preferences.put("username", "false");
                             preferences.put("password", "false");
                             preferences.put("token", String.valueOf(token));
