@@ -12,7 +12,7 @@ per la parte del login online, per ora è necessario una vpn.
 
 ### Installazione
 
-Si può scarica l'ultima versione del programma al seguente link : https://mega.nz/file/CV0xwQ5C#Exmxvdh2ec8irlvfKxw3eRfqvKC3tIQRDSxJ0IXoldw
+Si può scarica l'ultima versione del programma al seguente link : https://mega.nz/file/PAUzkSIL#A9DUXw76O1JBGgyjLVcEXf38T9YlIC6R_8cIg1aebHU
 
 ## Autore e contatti
 
